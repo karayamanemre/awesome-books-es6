@@ -16,15 +16,15 @@ export default class Books {
       booksList = JSON.parse(localStorage.getItem('books') || '[]');
 
       if (Title.value === '' || Author.value === '') {
-        document.getElementById('message').innerHTML = "*Please provide a title and author.";
+        document.getElementById('message').innerHTML = '*Please provide a title and author.';
       } else {
-        document.getElementById('message').innerHTML = "*Book added to the list.";
+        document.getElementById('message').innerHTML = '*Book added to the list.';
         const newBook = new Books(Title.value, Author.value);
         booksList.push(newBook);
         localStorage.setItem('books', JSON.stringify(booksList));
         document.getElementById('title').value = '';
         document.getElementById('author').value = '';
-        setTimeout("window.location.reload()",1000);
+        window.location.reload();
       }
     });
   }
@@ -54,6 +54,4 @@ export default class Books {
       });
     });
   }
-
-
 }

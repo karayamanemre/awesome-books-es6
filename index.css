@@ -86,7 +86,6 @@ h2 {
 
 #book-list {
   width: 70vw;
-  /* display: none; */
   justify-content: center;
   align-items: center;
   flex-direction: column;

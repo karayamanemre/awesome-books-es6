@@ -5,7 +5,7 @@ export default function showAdd() {
   const contactSection = document.querySelector('.contact-section');
 
   addLink.addEventListener('click', () => {
-    document.getElementById('message').innerHTML = "";
+    document.getElementById('message').innerHTML = '';
     listSection.style.display = 'none';
     addSection.style.display = 'flex';
     contactSection.style.display = 'none';
