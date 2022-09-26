@@ -1,0 +1,23 @@
+{
+  "name": "awesome-books-es6",
+  "version": "1.0.0",
+  "description": "Based on the Awesome Books app repo, was refactored with ES6 and organized using modules. The purpose of this project is to show you how to use JavaScript modules to organize functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karayamanemre/awesome-books-es6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karayamanemre/awesome-books-es6/issues"
+  },
+  "homepage": "https://github.com/karayamanemre/awesome-books-es6#readme",
+  "dependencies": {
+    "luxon": "^3.0.4"
+  }
+}
